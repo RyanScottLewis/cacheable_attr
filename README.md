@@ -50,7 +50,7 @@ num_gen = NumberGenerator.new
 
 puts "The first number will change every 3 seconds"
 puts "The second number will change every single call"
-puts "The third and forth numbers will never change after the first call"
+puts "The third and forth numbers will never change after the first call (You should normally use regular attrs for this, but just showing off ttl:nil)"
 puts ""
 
 loop do
