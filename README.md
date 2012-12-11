@@ -1,22 +1,14 @@
-# cacheable_attr
+# Cacheable Attr
 
-Allow any standard Ruby object's attributes to be cacheable
+Allow any Ruby object's attributes to be cacheable.
 
 ## Install
 
-Add the following to your Gemfile:
+### Bundler: `gem 'cacheable_attr'`
 
-```ruby
-gem 'cacheable_attr'
-```
+### RubyGems: `gem install cacheable_attr`
 
-or simply install with RubyGems:
-
-```sh
-gem install cacheable_attr
-```
-
-## Example
+## Usage
 
 ```ruby
 require 'cacheable_attr'
@@ -59,6 +51,18 @@ loop do
 end
 ```
 
-## License
+## Contributing
 
-See the `LICENSE` file for more details.
+* Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
+* Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
+* Fork the project
+* Start a feature/bugfix branch
+* Commit and push until you are happy with your contribution
+* Make sure to add tests for it. This is important so I don't break it in a future version unintentionally.
+* Please try not to mess with the Rakefile, version, or history. If you want to have your own version, or is otherwise necessary, that is fine, but please isolate to its own commit so I can cherry-pick around it.
+
+## Copyright
+
+Copyright © 2012 Ryan Scott Lewis <ryan@rynet.us>.
+
+The MIT License (MIT) - See LICENSE for further details.

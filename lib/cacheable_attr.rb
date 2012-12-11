@@ -1,11 +1,7 @@
-require 'pathname'
-
-__DIR__ = Pathname.new(__FILE__).dirname
-$:.unshift(__DIR__.to_s) unless $:.include?(__DIR__.to_s)
-
-require 'cacheable_attr/version'
+require 'version'
 
 module CacheableAttr
+  is_versioned
   
   def cacheable_attr(*attributes)
     opts = { ttl: 60 }
